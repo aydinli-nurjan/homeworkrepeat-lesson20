@@ -336,3 +336,116 @@ body{
 .information h3:hover{
     color: #bbbbbb;
 }
+
+.footer2{
+    width: 100%;
+    height: 850px;
+    float: left;
+    background-color: white;
+}
+
+.fiveWords{
+    width: 1300px;
+    height: 700px;
+    float: left;
+    /* background-color: greenyellow; */
+}
+
+.word5{
+    width: 100%;
+    height: 100px;
+    float: left;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.selections{
+    width: 650px;
+    height: 50px;
+    /* background-color: beige; */
+    float: left;
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.selections ul {
+    padding: 0px;
+}
+
+.selections ul li{
+    float: left;
+    list-style-type: none;
+}
+
+.selections ul li a{
+    margin: 10px;
+    padding: 1px 18px;
+    /* background: goldenrod; */
+    text-decoration: none;
+    color: #51555b;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    transition: 0.5s;
+}
+
+.selections ul li a:hover{
+    background-color: #00ab41;
+    color: white;
+}
+
+.div{
+    width: 100%;
+    height: 600px;
+    float: left;
+    /* background-color: bisque; */
+    padding: 20px 0px 0 25px;
+    box-sizing: border-box;
+}
+
+.photos{
+    width: 400px;
+    height: 280px;
+    float: left;
+    position: relative;
+    background-color: cadetblue;
+    margin: 0 25px 25px 0;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.scale{
+    transition: 0.7s;
+}
+
+.scale:hover{
+    transform: scale(0.9);
+    overflow: hidden;
+}
+
+.div .photos:nth-child(1){
+    background-image: url('https://douron.com/wp-content/uploads/2017/06/Douron_12-700x400.jpg');
+}
+
+.div .photos:nth-child(3){
+    background-image: url('https://png.pngtree.com/background/20230817/original/pngtree-modern-black-workspace-with-laptop-clock-and-coffee-cup-on-worktable-picture-image_4719685.jpg');
+}
+
+.div .photos:nth-child(2){
+    background-image: url('https://as2.ftcdn.net/v2/jpg/02/45/27/81/1000_F_245278117_A2bfd4nrVLsRtSZJzfzVd8Dl6XVvgTfg.jpg');
+}
+
+.div .photos:nth-child(5){
+    background-image: url('https://media.istockphoto.com/id/1138844016/photo/overhead-view-on-business-people-around-desk.jpg?s=170667a&w=0&k=20&c=MZ23O3Q6FWe1MyQ9UuMRCl2UmUd0XOZFEXWq_9L3l7o=');
+}
+
+.div .photos:nth-child(4){
+    background-image: url('https://img.freepik.com/free-photo/group-diverse-people-having-business-meeting_53876-25060.jpg');
+}
+
+.div .photos:nth-child(6){
+    background-image: url('https://online.hbs.edu/Style%20Library/api/resize.aspx?imgpath=/PublishingImages/overhead-view-of-business-strategy-meeting.jpg&w=1200&h=630');
+}
