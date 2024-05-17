@@ -98,3 +98,117 @@ body{
     color: #c0c0c0;
 }
 
+.navbar{
+    width: 100%;
+    height: 100px;
+    background-color: gray;
+    float: left;
+}
+
+.rightside{
+    width: 25%;
+    height: inherit;
+    float: left;
+    /* background: fuchsia; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.centerside{
+    width: 50%;
+    height: inherit;
+    float: left;
+    /* background-color: darkcyan; */
+}
+
+.leftside{
+    width: 25%;
+    height: inherit;
+    float: left;
+    /* background-color: lightcoral; */
+}
+
+.isuzu{
+    width: 120px;
+    height: 32px;
+    /* background-color: black; */
+    float: left;
+    border: 1px solid rgba(255, 255, 255, 0.69);
+    font-size: 20px;
+    margin-left: 52px;
+    font-family: none;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.isuzu a , .search a , .bars a{
+    text-decoration: none;
+    color: white;
+}
+
+.isuzu a:hover , .search a:hover , .bars a:hover{
+    color: #c0c0c0;
+    transition: 0.5s;
+}
+
+.words{
+    width: 700px;
+    height: 40px;
+    /* background-color: black; */
+    float: left;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    font-size: 14px;
+    z-index: 1;
+}
+
+.words ul {
+    padding: 0px;
+}
+
+.words ul li {
+    float: left;
+    list-style-type: none;
+}
+
+.words ul li a{
+    margin: 15px;
+    padding: 10px;
+    /* background: antiquewhite; */
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.words ul li a:hover{
+    color: #c0c0c0;
+    transition: 0.5s;
+}
+
+.icon2{
+    width: 120px;
+    height: 40px;
+    background-color: bisque;
+    float: left;
+    z-index: 1;
+}
+
+.search{
+    width: 50px;
+    height: inherit;
+    background-color: black;
+    color: white;
+    float: left;
+    margin-left: 20px;
+}
+
+.bars{
+    width: 50px;
+    height: inherit;
+    background-color: black;
+    color: white;
+    float: left;
+}
+
