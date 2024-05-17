@@ -238,6 +238,7 @@ body{
 .center p{
     color: white;
     font-size: 20px;
+    line-height: 28px;
 }
 
 .button{
@@ -281,4 +282,57 @@ body{
     position: absolute;
     left: 0;
     top: 0;
+}
+
+.information{
+    width: 370px;
+    min-height: 150px;
+    /* background-color: bisque; */
+    transition: 0.5s;
+}
+
+.information:hover{
+    background-color: #202020;
+    color: #bbbbbb;
+}
+
+.footer{
+    width: 100%;
+    min-height: 270px;
+    background-color: #f4f4f4;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.iconn{
+    width: 90px;
+    height: 150px;
+    float: left;
+    /* background-color: cornflowerblue; */
+    padding-top: 8px;
+    box-sizing: border-box;
+}
+
+.fa-icons{
+    width: 70px;
+    height: 50px;
+    /* background-color: burlywood; */
+}
+
+.information p{
+    color: lightslategray;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.information h3{
+    color: #48494b;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+
+.information h3:hover{
+    color: #bbbbbb;
 }
